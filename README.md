@@ -1,4 +1,6 @@
-# Cancer Classification
-## with Conjugate Gradient Backpropagation
-## and Binary Particle Swarm Optimization
-fef
+### Cancer Classification 
+#### with Conjugate Gradient Backpropagation and Binary Particle Swarm Optimization
+
+The source code for the paper: [Implementation of Modified Backpropagation with Conjugate Gradient as Microarray Data Classifier with Binary Particle Swarm Optimization as Feature Selection for Cancer Detection](http://jurnal.atmaluhur.ac.id/index.php/sisfokom/article/view/978)
+
+Cancer is one of the deadliest diseases in the world that needs to be handled as early as possible. One of the methods to detect the presence of cancer cells early on is by using microarray data. Microarray data can store human gene expression and use it to classify cancer cells. But one of the challenges of using microarray is its vast number of features, not proportional to its small number of samples. To resolve that problem, dimensionality reduction is needed to reduce the number of features stored in microarray data. Binary Particle Swarm Optimization (BPSO) is one of the methods to reduce dimensionality of microarray data that can increase classification performance. Although when combined with Backpropagation, BPSO still shows a relatively low performance. In this research, Modified Backpropagation with Conjugate Gradient is used to classify data that has been reduced with BPSO. The average accuracy result of BPSO+CGBP is 86.1%, giving it an improvement compared to BPSO+BP which averaged to 80.8%.
